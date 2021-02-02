@@ -39,7 +39,7 @@ function corregir (variable){
     }
 }
 
-let cliente1 = new clientes(corregir(prompt("Ingrese su nombre").trim()), corregir(prompt("Ingrese su apellido").trim()), corregir(getDni(prompt("Ingrese su dni")).trim()), corregir(prompt("Ingrese la marca de su vehiculo").trim()), corregir(prompt("Ingrese el modelo de su vehiculo").trim()), corregir(prompt("Ingrese el año de su vehiculo").trim()), 500000, false)
+let cliente1 = new clientes(corregir(prompt("Ingrese su nombre").trim()), corregir(prompt("Ingrese su apellido").trim()), getDni(prompt("Ingrese su dni")).trim(), corregir(prompt("Ingrese la marca de su vehiculo").trim()), corregir(prompt("Ingrese el modelo de su vehiculo").trim()), corregir(prompt("Ingrese el año de su vehiculo").trim()), 500000, false)
 
 //obtener dni 
 
